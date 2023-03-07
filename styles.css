@@ -1,0 +1,60 @@
+body{
+    background-color: #9cce9e;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;     
+  }
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(203, 126, 63);
+    border-radius: 8px;
+}
+
+#p_form{
+    font-family: Verdana;
+}
+
+#contenido{
+    width: 35%;
+    background: linear-gradient(#00aaff,75%,#006eff);
+    position: absolute;
+    top: 0%;
+    left: 32.5%;
+    height: 100%;
+}
+
+#contenido #formulario{
+    display: flex;
+    flex-direction: column;  
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 25%;
+}
+
+#contenido #formulario button{
+    margin-top: 5%;
+    padding: 0%;
+    background: #33d87d;
+    border: none;
+}
+
+#contenido #formulario button:hover{
+    transition-duration: 0.5s;
+    background: #31ed85;
+}
+
+#contenido2{
+    width: 35%;
+    height: 100%;
+    background: linear-gradient(#00aaff,75%,#006eff);
+    position: absolute;
+    top: 0%;
+    left: 32.5%;
+}
+
+
+
+
+
+
